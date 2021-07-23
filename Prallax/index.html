@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pot-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style type="text/css">
+        
+            /*Configurações padrões
+            */
+            body, html {
+                margin: 0;
+                font: 16px "Lato", sans-serif;
+                color: #777;
+                height: 100%;
+                
+            }
+
+            .coneudo {
+                color: #777;
+                background-color: white;
+                text-align: justify;
+                padding: 50px 80px; 
+                /* margin: 20px; */
+
+            }
+
+            h3 {
+                text-transform: uppercase;
+                color: #111;
+                text-align: center;
+            }
+
+            p {
+                margin: 30px;
+            }
+
+            /*Eeito Parallax
+            */
+            .caixa1, .caixa2, .caixa3, .caixa4 {
+                position: relative;
+                height: 100%; 
+                opacity: 0.7;
+                background-repeat: no-repeat; /*Utilizando "background-repeat" para não sobreescrever os outros backgrounds*/
+                background-size: cover; /*background-size tamanho da imagem de background cover=cobrir toda a área em branco*/ 
+                background-position: center; /*Para centralizar a imagem*/ 
+                background-attachment: fixed; /*Para a imagem de background ficar fixa, ela não acompanha o scroll*/    
+            }
+
+            .caixa1 {
+                background-image: url(imagens/imagem1.jpg);
+            }
+
+            .caixa2 {
+                background-image: url(imagens/imagem2.jpg);
+            }
+
+            .caixa3 {
+                background-image: url(imagens/imagem3.jpg);
+            }
+
+            .caixa4 {
+                background-image: url(imagens/imagem4.jpg);
+            }
+
+            .conteudo-titulo {
+                position: absolute;
+                left: 0;
+                top: 45%;
+                width: 100%;
+                text-align: center;
+                
+                
+            }
+
+            .conteudo-titulo span.titulo {
+                color: white;
+                background-color: #111;
+                padding: 18px;
+                font-size: 25px;
+                letter-spacing: 5px; /*Espaçamento entre os caracteres*/
+                text-transform: uppercase;
+            }
+
+        </style>
+        <title>Parallax</title>
+    </head>
+
+    <body>
+    
+        <div class="caixa1">
+            <div class="conteudo-titulo">
+                <span class="titulo">Passeio de balões</span>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <h3> Parallax</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsam eius ratione necessitatibus quasi molestiae unde, voluptates inventore enim tenetur officia harum recusandae facilis iste distinctio! Expedita, autem. Voluptas quaerat numquam ut nulla, tenetur totam alias impedit, quod asperiores fuga minus? Perferendis, temporibus! Adipisci molestiae architecto quis? Aliquid, molestiae iure!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quisquam reprehenderit eaque perferendis fugiat voluptatum odit nemo rem ipsum. Enim quos hic totam delectus obcaecati libero repudiandae similique pariatur, ducimus distinctio eaque, placeat id dolores minus officiis modi voluptatum non iure quis nesciunt! Sequi necessitatibus quaerat cumque quo, pariatur debitis, unde maxime aspernatur, accusamus magni est corrupti quos earum. Dolore at minima officia delectus, itaque eligendi labore eos dolores aliquam nostrum, laborum numquam maiores odio? Odio, est! Iusto, laboriosam quod.</p>
+        </div>
+
+        <div class="caixa2">
+            <div class="conteudo-titulo">
+                <span class="titulo">Estradas</span>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <h3>Conteúdo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatem veritatis perspiciatis qui voluptates rerum eius culpa? Explicabo cum unde est nobis natus, sint, molestiae inventore itaque libero quod velit?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente beatae deleniti provident odio excepturi adipisci similique magni dicta sequi voluptate!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab voluptates in sed, possimus dolore, consequatur doloribus illo dicta modi fugit facere debitis, animi inventore explicabo eaque sunt voluptatibus eius maxime.</p>
+        </div>
+
+        <div class="caixa3">
+            <div class="conteudo-titulo">
+                <span class="titulo">Por do sol</span>
+            </div>
+        </div>
+
+        <div class="caixa4">
+            <div class="conteudo-titulo">
+                <span class="titulo">Montanhas</span>
+            </div>
+        </div>
+        
+    </body>
+
+</html>
